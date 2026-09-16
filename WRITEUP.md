@@ -3,7 +3,7 @@
 **Candidate:** Ganesh Mate  
 **Role:** Full-Stack Developer Intern (Frontend-Heavy)  
 **Company:** Truckinzy Infotech Pvt. Ltd.  
-**Live Demo:** [Vercel / Netlify Deployment Link]  
+**Live Demo:** https://freightcore-logistics.vercel.app/  
 **GitHub Repository:** https://github.com/ganeshmate010-sketch/freightcore-logistics-  
 
 ---
