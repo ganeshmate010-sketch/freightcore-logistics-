@@ -1,15 +1,15 @@
-﻿# FreightCore Logistics 🌐🚛
+# FreightCore Logistics ????
 
 > **Autonomous Multimodal Freight & Fleet Intelligence Platform**  
 > *Hiring Take-Home Assignment for Full-Stack Developer Intern (Frontend-Heavy) at Truckinzy Infotech Pvt. Ltd.*
 
 ---
 
-## ⚡ Overview
+## ? Overview
 
 **FreightCore Logistics** is an enterprise-grade, scroll-driven hero experience designed for Fortune 500 supply chain dispatchers. Taking cues from Awwwards benchmarks (*United Carriers* and *Emons*), the site delivers sub-second telemetry feedback, a 60 FPS WebGL spatial globe, and a pinned multimodal scroll narrative.
 
-### 🌟 Live Highlights
+### ?? Live Highlights
 - **WebGL / Three.js 3D Mesh**: Interactive 3D logistics node globe with procedural particle landmass, glowing international hub markers, and dynamic cubic bezier shipping curves with animated cargo pulses.
 - **GSAP ScrollTrigger**: Numerical rollup stat counters triggered on viewport entry, parallax product cards, and a pinned horizontal multimodal transit flow.
 - **Micro-Interactions**:
@@ -22,7 +22,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+## ??? Tech Stack
 
 | Layer | Technologies |
 |---|---|
@@ -35,7 +35,7 @@
 
 ---
 
-## 🚀 Getting Started
+## ?? Getting Started
 
 ### Prerequisites
 - Node.js `v18+` or `v20+`
@@ -44,7 +44,7 @@
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/freightcore-logistics.git
+git clone https://github.com/ganeshmate010-sketch/freightcore-logistics-.git
 cd freightcore-logistics
 
 # Install dependencies
@@ -62,36 +62,36 @@ npm run preview
 
 ---
 
-## 📂 Project Structure
+## ?? Project Structure
 
 ```
 freightcore-logistics/
-├── public/
-│   └── logo.svg                 # FreightCore enterprise geometric brand mark
-├── src/
-│   ├── components/
-│   │   ├── Preloader.jsx        # Telemetry boot sequence & progress counter
-│   │   ├── Navbar.jsx           # Glassmorphism header with live network pill
-│   │   ├── ThreeCanvas.jsx      # Interactive 60fps WebGL Logistics Node Globe
-│   │   ├── Hero.jsx             # Hero section with live search and telemetry cards
-│   │   ├── StatsSection.jsx     # GSAP ScrollTrigger counters & parallax cards
-│   │   ├── HorizontalScrollSection.jsx # Pinned horizontal multimodal journey
-│   │   ├── NetworkTerminalSection.jsx  # Interactive corridor matrix & ping tester
-│   │   ├── ConsignmentModal.jsx # Real-time IoT shipment diagnostics modal
-│   │   ├── DemoModal.jsx        # Enterprise dispatch pilot scheduling modal
-│   │   ├── CustomCursor.jsx     # Magnetic cursor follower (fine pointers)
-│   │   └── Footer.jsx           # Enterprise footer & global time tickers
-│   ├── App.jsx                  # Main application orchestrator & Lenis sync
-│   ├── index.css                # Tailwind v4 import & custom styles
-│   └── main.jsx                 # React root entry
-├── vite.config.js               # Optimized chunk splitting (Three.js / GSAP)
-├── WRITEUP.md                   # 300-500 word AI process & technical decision write-up
-└── package.json
++-- public/
+�   +-- logo.svg                 # FreightCore enterprise geometric brand mark
++-- src/
+�   +-- components/
+�   �   +-- Preloader.jsx        # Telemetry boot sequence & progress counter
+�   �   +-- Navbar.jsx           # Glassmorphism header with live network pill
+�   �   +-- ThreeCanvas.jsx      # Interactive 60fps WebGL Logistics Node Globe
+�   �   +-- Hero.jsx             # Hero section with live search and telemetry cards
+�   �   +-- StatsSection.jsx     # GSAP ScrollTrigger counters & parallax cards
+�   �   +-- HorizontalScrollSection.jsx # Pinned horizontal multimodal journey
+�   �   +-- NetworkTerminalSection.jsx  # Interactive corridor matrix & ping tester
+�   �   +-- ConsignmentModal.jsx # Real-time IoT shipment diagnostics modal
+�   �   +-- DemoModal.jsx        # Enterprise dispatch pilot scheduling modal
+�   �   +-- CustomCursor.jsx     # Magnetic cursor follower (fine pointers)
+�   �   +-- Footer.jsx           # Enterprise footer & global time tickers
+�   +-- App.jsx                  # Main application orchestrator & Lenis sync
+�   +-- index.css                # Tailwind v4 import & custom styles
+�   +-- main.jsx                 # React root entry
++-- vite.config.js               # Optimized chunk splitting (Three.js / GSAP)
++-- WRITEUP.md                   # 300-500 word AI process & technical decision write-up
++-- package.json
 ```
 
 ---
 
-## 🚢 Deployment Guide
+## ?? Deployment Guide
 
 This project is zero-config ready for **Vercel** or **Netlify**:
 
@@ -103,5 +103,5 @@ This project is zero-config ready for **Vercel** or **Netlify**:
 
 ---
 
-## 📄 Submission Documentation
+## ?? Submission Documentation
 The official write-up covering AI prompting workflow, key technical decisions, and bug resolution is available in [`WRITEUP.md`](./WRITEUP.md).

@@ -1,10 +1,10 @@
-ï»¿# FreightCore Logistics â€” Frontend Take-Home Assignment Write-Up
+# FreightCore Logistics — Frontend Take-Home Assignment Write-Up
 
 **Candidate:** Ganesh Mate  
 **Role:** Full-Stack Developer Intern (Frontend-Heavy)  
 **Company:** Truckinzy Infotech Pvt. Ltd.  
 **Live Demo:** [Vercel / Netlify Deployment Link]  
-**GitHub Repository:** [GitHub Repository Link]  
+**GitHub Repository:** https://github.com/ganeshmate010-sketch/freightcore-logistics-  
 
 ---
 
@@ -25,7 +25,7 @@ Every generated code block was manually audited for GPU memory leaks, device-pix
 **Decision:** Built a procedural WebGL particle and bezier-arc logistics globe in Three.js instead of loading pre-modeled 3D GLTF/GLB assets.
 
 **Rationale:**  
-Pre-baked 3D vehicle or globe models (often 8MBâ€“25MB) introduce severe network transfer penalties, shader compilation stutter, and slow First Contentful Paint (FCP). By procedurally computing spherical points, glowing node markers, and bezier shipping lanes directly in WebGL buffer geometries, the entire 3D hero payload stays under **130KB gzipped**. Combined with clamping `renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))`, this guarantees a locked **60 FPS render loop with zero frame drops** on mobile, tablet, and high-DPI displays.
+Pre-baked 3D vehicle or globe models (often 8MB–25MB) introduce severe network transfer penalties, shader compilation stutter, and slow First Contentful Paint (FCP). By procedurally computing spherical points, glowing node markers, and bezier shipping lanes directly in WebGL buffer geometries, the entire 3D hero payload stays under **130KB gzipped**. Combined with clamping `renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))`, this guarantees a locked **60 FPS render loop with zero frame drops** on mobile, tablet, and high-DPI displays.
 
 ---
 
@@ -35,7 +35,7 @@ Pre-baked 3D vehicle or globe models (often 8MBâ€“25MB) introduce severe network
 During the horizontal multimodal journey implementation, integrating **GSAP ScrollTrigger `pin: true`** with **Lenis smooth scrolling** caused scroll jitter and layout shifts during fast scrubbing on certain viewport heights. Furthermore, on mobile viewports, full-screen pinning trapped touch users inside the horizontal canvas.
 
 **The Solution:**  
-1. Synchronized Lenis with GSAPâ€™s internal ticker using `gsap.ticker.add((time) => lenis.raf(time * 1000))` and disabled lag smoothing with `gsap.ticker.lagSmoothing(0)`.
+1. Synchronized Lenis with GSAP’s internal ticker using `gsap.ticker.add((time) => lenis.raf(time * 1000))` and disabled lag smoothing with `gsap.ticker.lagSmoothing(0)`.
 2. Wrapped the ScrollTrigger logic in a `gsap.context()` hook for clean component teardown, preventing ghost trigger instances.
 3. Implemented a responsive breakpoint check (`window.innerWidth >= 768`): enabling the pinned horizontal scrub on desktop/tablet while gracefully adapting to a vertical fluid stack on mobile touchscreens.
 
